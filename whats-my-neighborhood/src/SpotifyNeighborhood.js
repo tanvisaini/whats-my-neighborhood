@@ -8,7 +8,7 @@ export default function SpotifyNeighborhood() {
   const [loading, setLoading] = useState(false);
 
   const CLIENT_ID = '983e8c61011a4ea0a7036be122845985';
-  const REDIRECT_URI = 'http://127.0.0.1:3000';
+  const REDIRECT_URI = 'https://whats-my-neighborhood.vercel.app/';
   const SCOPES = 'user-top-read user-read-private';
 
   const generateRandomString = (length) => {
